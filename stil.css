@@ -1,30 +1,24 @@
-@font-face {
-  font-family: 'NaslovFont';
-  src: url("C:\Users\anita\Desktop\stil\AnitaKrsnik.ttf") format('truetype');
-  font-weight: normal;
-  font-style: normal;
-}
+
 
 body {
   margin: 0;
   padding: 0;
-  background-image: url("C:\Users\anita\Desktop\stil\papir.jpg");
+  background-image: url(papir.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   text-align: center;
   font-family: Courier, monospace;
-  color: #333;
+  color:;
 }
 
-/* Stil za sve naslove h1 – koristi ugrađeni font */
 h1 {
   font-family: 'NaslovFont', sans-serif;
+  src: url("C:\Users\anita\Desktop\stil\AnitaKrsnik.ttf") format('truetype');
   font-size: 2.5em;
   margin-top: 30px;
 }
 
-/* Ostali stilovi (opcionalno) */
 p, h2, h3, h4, h5, h6 {
   font-family: Courier, monospace;
 }
