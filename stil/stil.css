@@ -1,0 +1,28 @@
+
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url(papir.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  font-family: Courier, monospace;
+  color:;
+}
+
+h1 {
+  font-family: 'NaslovFont', sans-serif;
+  src: url("C:\Users\anita\Desktop\stil\AnitaKrsnik.ttf") format('truetype');
+  font-size: 2.5em;
+  margin-top: 30px;
+}
+
+p, h2, h3, h4, h5, h6 {
+  font-family: Courier, monospace;
+}
+
+section, header, footer, main {
+  padding: 20px;
+}
